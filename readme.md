@@ -26,3 +26,5 @@ The Redis CLI lets you run commands directly within your running Redis container
 Your Redis service understands Redis CLI commands. Numerous commands are supported, as are different CLI modes. Read through the Redis CLI documentation to learn more. 
 
 ******
+my test : docker exec -it some-redis redis-cli
+*****************
