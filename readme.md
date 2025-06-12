@@ -7,7 +7,7 @@ By leaving this verbiage out, our Redis service will start and continue running 
 ****
 https://www.docker.com/blog/how-to-use-the-redis-docker-official-image
 *****
-  docker run --name some-redis -p 5672:5672 -d redis
+    docker run --name some-redis -p 6379:6379 -d redis
 ****
 https://github.com/redislabs-training/node-js-crash-course
 ******
