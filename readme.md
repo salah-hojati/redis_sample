@@ -22,7 +22,7 @@ The Redis CLI lets you run commands directly within your running Redis container
     docker network create some-network
 1
 
-    ​​docker run -it --network some-network --rm redis redis-cli -h some-redis
+    docker run -it --network some-network --rm redis redis-cli -h some-redis
 Your Redis service understands Redis CLI commands. Numerous commands are supported, as are different CLI modes. Read through the Redis CLI documentation to learn more. 
 
 ******
