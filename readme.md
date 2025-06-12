@@ -1,4 +1,4 @@
-	
+port 6379	
 docker run --name some-redis -d redis
 
 By adding -d redis in this command, Docker will run your Redis service in “detached” mode.
